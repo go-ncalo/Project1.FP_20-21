@@ -784,5 +784,3 @@ def jogo_do_galo(simb, estrategia):
         return "X"
     elif jogador_ganhador(tab) == 0:
         return "EMPATE"
-
-print(jogo_do_galo('O', 'basico'))
